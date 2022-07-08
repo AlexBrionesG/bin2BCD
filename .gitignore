@@ -1,0 +1,8 @@
+bin2BCD.qpf
+bin2BCD.qsf
+bin2BCD.qws
+bin2BCD.v.bak
+db/
+incremental_db/
+output_files/
+simulation/
