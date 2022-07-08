@@ -1,5 +1,5 @@
 module bin2BCD(
-	input [7:0] binary,
+	input [9:0] binary,
 	output reg [3:0] Hundreds,
 	output reg [3:0] Tens,
 	output reg [3:0] Ones
@@ -12,7 +12,7 @@ module bin2BCD(
 		Tens = 4'b000;
 		Ones = 4'b000;
 		
-		for(i=7; i>=0; i=i-1)
+		for(i=9; i>=0; i=i-1)
 		begin
 			if (Hundreds >= 5)
 				Hundreds = Hundreds + 3;
